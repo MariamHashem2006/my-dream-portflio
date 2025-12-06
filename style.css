@@ -1,0 +1,39 @@
+ body {
+    background-color: aliceblue;
+    max-width: 100%;
+}
+.header {
+    width: 250px;
+    height: 40px;
+    color: rgb(144, 13, 13);
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(241, 224, 182);
+}
+.profile-picture img {
+    width: 200px;
+    border: 1px solid rgb(144, 13, 13);;
+    border-radius: 50%;
+}
+.profile-picture button ,.contacts button{
+    outline: 1px solid rgb(144, 13, 13);
+}
+.phone-number {
+    display: none;
+}
+.hero {
+    height: 170px;
+    overflow: auto;
+    background-image: url("assets/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero, .profile-picture, .contacts, .skills, .hero{
+    background-color: rgb(241, 224, 182);
+    padding: 15px;
+    margin: 10px;
+    color: rgb(144, 13, 13);
+}
+
+
